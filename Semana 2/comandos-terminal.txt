@@ -1,0 +1,7 @@
+cd OneDrive\Escritorio
+git clone https://github.com/fuengelen-lang/Programadores_Para_la_paz_gpfn.git
+cd Programadores_Para_la_paz_gpfn
+code .
+git add .
+git commit -m "Tarea semana 2"
+git push
