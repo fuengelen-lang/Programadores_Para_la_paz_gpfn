@@ -1,0 +1,11 @@
+Al probar la ruta POST en Thunder Client enviando un JSON
+con tipo y descripción, el servidor respondió con Status 200 OK
+y devolvió el reporte registrado junto con un id asignado 
+automáticamente. Luego al consultar la ruta GET con la misma
+URL, el servidor devolvió la lista completa de reportes 
+guardados en memoria. Al agregar un segundo reporte con datos
+diferentes, el GET mostró los dos reportes juntos con sus
+respectivos ids. Es importante tener en cuenta que si el
+servidor se detiene y se vuelve a iniciar, la lista de 
+reportes queda vacía, porque los datos se almacenan en 
+memoria y no en una base de datos.
